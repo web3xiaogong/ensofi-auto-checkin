@@ -1,0 +1,14 @@
+# 代理配置文件示例
+# 每行一个代理，格式：http://用户名:密码@IP:端口
+# 
+# 示例格式：
+# http://username1:password1@proxy1.example.com:8080
+# http://username2:password2@proxy2.example.com:8080
+# http://username3:password3@proxy3.example.com:8080
+# 
+# 注意：
+# - 请将此文件重命名为 proxies.txt
+# - 删除示例内容，填入您的真实代理信息
+# - 如果不使用代理，可以留空或删除此文件
+# - 脚本会自动为每个账号分配代理
+# - 代理数量可以少于账号数量，会循环使用

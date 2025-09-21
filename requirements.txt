@@ -1,0 +1,16 @@
+# 核心依赖
+requests>=2.28.0
+base58>=2.1.0
+
+# Solana 钱包支持 (二选一)
+# 推荐使用 solana (更稳定)
+solana>=0.30.0
+# 或者使用 solders (更快)
+# solders>=0.18.0
+
+# 可选依赖
+# 彩色输出支持
+colorama>=0.4.6
+
+# 安装命令:
+# pip install -r requirements.txt
